@@ -1,8 +1,10 @@
+package testng;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestusingClass extends BaseClass{
+public class TestusingClass extends BaseClass {
     @Test
     public void checkTittle() {
         Assert.assertEquals(driver.getTitle(), "ParaBank | Welcome | Online Banking");
